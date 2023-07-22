@@ -172,15 +172,16 @@ export const work = [
 
 export const projects = [
      
+    
+
       {
-        asset :  <video autoPlay loop muted>
-        <source src={studynotion} type='video/mp4' />
-        </video>,
-        title : "StudyNotion",
-        subTitle : "EdTech platform",
-        desc : "This is a EdTech platform website built using React Js, Tailwind CSS, Express JS, Mongoose and MongoDB.",
+        asset : <img src={portfolio} alt="" />,
+        title : "Portfolio Website",
+        subTitle : "",
+        desc : "My personal portfolio website made using React Js and Tailwind CSS with clean UI.",
         link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
       },
+    
 
       {
         asset : <img src={blujAero} alt="" />,
@@ -191,13 +192,14 @@ export const projects = [
       },
       
       {
-        asset : <img src={portfolio} alt="" />,
-        title : "Portfolio Website",
-        subTitle : "",
-        desc : "My personal portfolio website made using React Js and Tailwind CSS with clean UI.",
+        asset :  <video autoPlay loop muted>
+        <source src={studynotion} type='video/mp4' />
+        </video>,
+        title : "StudyNotion",
+        subTitle : "EdTech platform",
+        desc : "This is a EdTech platform website built using React Js, Tailwind CSS, Express JS, Mongoose and MongoDB.",
         link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
       },
-    
       
 ]
 export const miniProjects = [
