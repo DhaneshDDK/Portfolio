@@ -11,10 +11,10 @@ const AboutMe = () => {
 
           <div className='my-8'>Hi 👋 I'm Dhanesh a 21-year-old undergraduate at IIT Tirupati persuing a degree in Mechanical Engineering. I'm passionate about website development, UI/UX designs, and software development. Full stack web development fascinates me as it bridges the gap between design and functionality. I enjoy the challenge of problem-solving and continuously learning new technologies. With dedication and enthusiasm, I'm determined to make a meaningful impact in the digital world.</div>
 
-          <div className=' cursor-pointer text-center mx-auto w-fit my-6 px-4 py-3 flex items-center gap-2 bg-[#00ffff] text-black rounded-lg shadow-[0px_0px_80px_#00ffff]'>
-          <a href={resume} download>Download resume </a>
+          <a href={resume} download className=' cursor-pointer text-center mx-auto w-fit my-6 px-4 py-3 flex items-center gap-2 bg-[#00ffff] text-black rounded-lg shadow-[0px_0px_80px_#00ffff]'>
+          <div>Download resume </div>
           <BsFiletypePdf color='black'/>
-          </div>
+          </a>
            
       
     </div>
