@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:4000";
+const BASE_URL = "https://portfolio-backend-1280.onrender.com";
 
 export const mailSender = {
     SEND_MAIL : BASE_URL + "/sendMail",
