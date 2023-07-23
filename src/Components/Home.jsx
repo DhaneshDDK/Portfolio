@@ -9,6 +9,22 @@ import img from '../assets/avatar.png'
 import Tilt from 'react-parallax-tilt';
 
 const Home = () => {
+
+  
+  const scrollToElement = (id) => {
+    const element = document.getElementById(id);
+    if(id==='home') window.scrollTo({ top: (0,0), behavior:'smooth' });
+    if (element) {
+      var headerOffset = 90;
+      var elementPosition = element.getBoundingClientRect().top;
+      var offsetPosition = elementPosition + window.pageYOffset - headerOffset; 
+      window.scrollTo({
+           top: offsetPosition,
+           behavior: "smooth"
+      });
+    }
+  };
+
   return (
     <div className='lg:h-[calc(100vh-5em)] flex flex-col-reverse my-10 lg:my-0 md:flex-row items-center justify-between max-w-[1120px] mx-auto gap-5 relative'>
      
@@ -62,7 +78,7 @@ const Home = () => {
 
      
      <div className='my-6 bg-[#00ffff] w-fit px-4 py-3 hover:scale-95 cursor-pointer transition-all duration-150 ease-linear
-      rounded-lg text-black shadow-[0px_0px_80px_#00ffff]'>More About me</div>
+      rounded-lg text-black shadow-[0px_0px_80px_#00ffff]' onClick={() => scrollToElement('about')}>More About me</div>
 
      </div>
      <Tilt>
