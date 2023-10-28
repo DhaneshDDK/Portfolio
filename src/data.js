@@ -25,6 +25,7 @@ import studynotion from './assets/studynotion.mp4'
 import portfolio from './assets/portfolio.png'
 import blujAero from './assets/blujAero.png'
 import ecomzy from './assets/ecomzy.png'
+import ecomzyfullstack from './assets/ecomzy_fullstack.png'
 import weather from './assets/weather.png'
 import github from './assets/github.png'
 import passwordGenerator from './assets/passwordGenerator.png'
@@ -171,25 +172,16 @@ export const work = [
 ]
 
 export const projects = [
-     
-    
+ 
+  {
+    asset : <img src={ecomzyfullstack} alt="" />,
+    title : "Shooping Website",
+    subTitle : "",
+    desc : "This is a shopping website made using React Js, Node Js, Express Js, MongoDB and Tailwind CSS with clean UI.",
+    link : `https://shoppy-kappa.vercel.app/`,
+  },
 
-      {
-        asset : <img src={portfolio} alt="" />,
-        title : "Portfolio Website",
-        subTitle : "",
-        desc : "My personal portfolio website made using React Js and Tailwind CSS with clean UI.",
-        link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
-      },
-    
-
-      {
-        asset : <img src={blujAero} alt="" />,
-        title : "BlujAero",
-        subTitle : "",
-        desc : "This is a content-driven website for an aerospace startup in Telangana. It is built using React Js and Tailwind CSS.",
-        link : `https://blujaero.com/`,
-      },
+  
       
       {
         asset :  <video autoPlay loop muted>
@@ -200,7 +192,27 @@ export const projects = [
         desc : "This is a EdTech platform website built using React Js, Tailwind CSS, Express JS, Mongoose and MongoDB.",
         link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
       },
+
+
       
+      {
+        asset : <img src={blujAero} alt="" />,
+        title : "BlujAero",
+        subTitle : "",
+        desc : "This is a content-driven website for an aerospace startup in Telangana. It is built using React Js and Tailwind CSS.",
+        link : `https://blujaero.com/`,
+      },
+      
+
+      {
+        asset : <img src={portfolio} alt="" />,
+        title : "Portfolio Website",
+        subTitle : "",
+        desc : "My personal portfolio website made using React Js and Tailwind CSS with clean UI.",
+        link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
+      },
+    
+
 ]
 export const miniProjects = [
     
