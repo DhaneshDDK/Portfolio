@@ -35,6 +35,7 @@ import chair from './assets/chair.png'
 import razorpay from './assets/razorpay.png'
 import discord from './assets/discord.png'
 import blogs from './assets/blogs.png'
+import search from './assets/search.png'
 
 export const languages = [
     {
@@ -189,8 +190,16 @@ export const projects = [
         </video>,
         title : "StudyNotion",
         subTitle : "EdTech platform",
-        desc : "This is a EdTech platform website built using React Js, Tailwind CSS, Express JS, Mongoose and MongoDB.",
+        desc : "This is an EdTech platform website built using React Js, Tailwind CSS, Express JS, Mongoose and MongoDB.",
         link : `https://frontend-4tzg2nlgm-dhaneshddk.vercel.app/`,
+      },
+
+      {
+        asset : <img src={search} alt="" />,
+        title : "User database",
+        subTitle : "",
+        desc : "This is a website built using MERN and Tailwind CSS for searching users in database using filters and search options.",
+        link : `https://heliverse-six.vercel.app/`,
       },
 
 
