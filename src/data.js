@@ -36,6 +36,7 @@ import razorpay from './assets/razorpay.png'
 import discord from './assets/discord.png'
 import blogs from './assets/blogs.png'
 import search from './assets/search.png'
+import urlshortener from './assets/url-shortener'
 
 export const languages = [
     {
@@ -210,6 +211,14 @@ export const projects = [
         subTitle : "",
         desc : "This is a content-driven website for an aerospace startup in Telangana. It is built using React Js and Tailwind CSS.",
         link : `https://blujaero.com/`,
+      },
+      
+      {
+        asset : <img src={urlshortener} alt="" />,
+        title : "URL-shortener",
+        subTitle : "",
+        desc : "This is a server-side-rendered node js application",
+        link : `https://url-shortener-uvqp.onrender.com/`,
       },
       
 
