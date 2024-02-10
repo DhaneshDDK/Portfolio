@@ -36,7 +36,7 @@ import razorpay from './assets/razorpay.png'
 import discord from './assets/discord.png'
 import blogs from './assets/blogs.png'
 import search from './assets/search.png'
-import urlshortener from './assets/urlshortener'
+import urlshortener from './assets/urlshortener.png'
 
 export const languages = [
     {
