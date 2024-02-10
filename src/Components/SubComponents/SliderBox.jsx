@@ -4,7 +4,7 @@ const SliderBox = ({project}) => {
   return (
     <div className='flex flex-col lg:flex-row items-center gap-10'>
 
-            <div className='min-w-[400px] max-w-[600px] min-h-[250px] h-fit border border-[#00ffff] rounded-md overflow-hidden'>
+            <div className='min-w-[200px] max-w-[600px] min-h-[150px] h-fit border border-[#00ffff] rounded-md overflow-hidden'>
                   { project.asset }
              </div>
           
